@@ -1,0 +1,25 @@
+.well {
+        /* min-height: 20px;
+        margin-bottom: 20px; */
+        background-color: rgb(233, 236, 238);
+        /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px inset; */
+        /* padding: 29px;
+        border-width: 3px; */
+        /* border-style: solid; */
+        /* border-color: rgb(173, 146, 146); */
+        /* border-image: initial; */
+        border-radius: 20px;
+        text-align: center;
+        margin:auto;
+        margin-top: 15%;
+        width: 50%;
+        border: 3px solid green;
+        padding: 20px;
+        
+    }
+    h1{
+        color:rgb(20, 231, 66)
+    }
+    body{
+        background: rgb(177, 171, 171);
+    }

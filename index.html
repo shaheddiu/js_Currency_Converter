@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+    <title>Currency_convertor</title>
+</head>
+<body>
+    <div class="col-md-6 well">
+        <h1 class="text-primary"> Currency Converter</h1>
+        <hr style="border-top:1px dotted #ccc;">
+        <h2>Select Currency</h2>
+
+        <div>
+            <select name="currency" id="inputcurrency" onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">
+                <option value="Taka">Bangladeshi Taka</option>
+                <option value="Derham">United Arab Emirates Derham</option>
+                <option value="Doller">US Doller</option>
+                <option value="Rupee">Indian Rupee</option>
+            </select>
+            <input type="number" name="first" onchange="firstToSecond()" oninput="firstToSecond()" id="firstcurrecy">
+        </div>
+
+        <div>
+            <h2>Convert Currency</h2>
+
+            <select name="currency" id="outputcurrency"  onchange="firstToSecond()" onclick="firstToSecond()" oninput="firstToSecond()">
+                <option value="Taka1">Bangladeshi Taka</option>
+                <option value="Derham1">United Arab Emirates Derham</option>
+                <option value="Doller1">US Doller</option>
+                <option value="Rupee1">Indian Rupee</option>
+            </select>
+            <input type="number" name="second" id="secondcurrecy">
+
+
+        </div>
+    </div>
+    
+
+</body>
+</html>
